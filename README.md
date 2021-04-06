@@ -7,8 +7,8 @@ With this TODO-List API you are able to connect your front-end app, CLI tool or 
 
 You will need only a few support to run TODO-List app
 
-[go1.16](https://golang.org "Golang oficial site")
-[PostgreSQL 12](https://postgresql.org "PostgreSQL oficial site")
+1. [go1.16](https://golang.org "Golang oficial site")
+2. [PostgreSQL 12](https://postgresql.org "PostgreSQL oficial site")
 
 It's possible to conteinerize the application build file present on this repository, aside another container that keeps PostgreSQL database running, but it doesn't stop you from expose the build file and database on your local host in order to have the benefits of the App without the work overload that container systems bring up.
 

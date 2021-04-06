@@ -23,14 +23,15 @@ List all the tasks you have already finished up.
 `/create-task`
 Create a new task according to your description.
 
-`/update-task`
+`/update-task/{id}`
 Update the description or status of your tasks, completed or not.
 
-`/delete-task`
+`/delete-task/{id}`
 Delete a task only by passing its ID
 
-`/decline-task`
+`/decline-task/{id}`
 End up the appointment changing its status
 
-`/restore-task`
+`/restore-task/{id}`
 Bring some task back to your TODO list
+
